@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Us</title>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<title>Page Title</title>
+
+<style>
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #FF9B00;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal; 
+}
+
+.container {
+  width: 80%; 
+  margin: 50px auto; 
+}
+
+.container h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.contact-box{
+     background: #fff;
+     display: flex;
+}
+.contact-left{
+     flex-basis: 60%;
+     padding: 20px 30px;
+}
+.contact-right{
+     flex-basis: 40%;
+     padding: 20px;
+     background: #34282C;
+     color: #fff;
+}
+.container p{
+  margin-bottom: 40px;
+}
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group{
+  flex-basis: 45%;
+}
+input{
+width: 100%;
+border: none;
+border-bottom: 1px solid #ccc;
+outline: none;
+padding-bottom: 5px;
+}
+
+textarea{
+   width: 100%;
+   border: 1px solid #ccc;
+   outline: none;
+   padding-bottom: 10px;
+   box-sizing: border-box;
+}
+
+label{
+margin-bottom: 6px;
+display: block;
+color: #34282C;
+}
+
+button{
+background: #34282C;
+width: 100px;
+border: none;
+outline: none;
+color: #fff;
+height: 35px;
+border-radius: 30px;
+margin-top: 20px;
+box-shadow: 0px 5px 15px 0px rgba(28,0,181,0,3);
+}
+
+.contact-left h3{
+color: #34282C;
+font-weight: 600;
+margin-bottom: 30px;
+}
+
+contact-right h3{
+font-weight: 600;
+margin-bottom: 30px;
+}
+
+tr td:first-child{
+padding-right: 20px;
+}
+tr td{
+padding-top: 20px;
+}
+
+</head>
+</style>
+
+<body>
+
+    <div class="container">
+    <h1><b>Connect With Us</b></h1>
+    <p>We would love to respond to your queries and help you succeed. <br>Feel 
+    free to get in touch with us. </p>
+    <div  class="contact-box">
+       <div  class="contact-left">
+        <h3>Send your request</h3>
+        <form>
+          <div class="input-row">
+           <div class="input-group">
+             <label>Name</label> 
+             <input type="text" placeholder="John Cena">
+            </div>
+            <div class="input-group">
+             <label>Phone</label> 
+             <input type="text" placeholder="00 000 000 00">
+            </div>
+          </div>
+          <div class="input-row">
+            <div class="input-group">
+             <label>Email</label> 
+             <input type="email" placeholder="mechyoclerky@gmail.com">
+            </div>
+            <div class="input-group">
+             <label>Required</label> 
+             <input type="text" placeholder="Product Info">
+            </div>
+
+          </div>
+          
+          <label>Message</label>
+          <textarea rows="10" placeholder="Your Message"></textarea>
+           <button type="submit">SEND</button>
+        </form>
+       </div>
+       <div  class="contact-right">
+       <h3>Reach us</h3>
+        <table>
+            <tr>
+                <td>Email</td>
+                <td>contactus@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td>+91 877 87 131 66 </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>#2/31, Kamarajar Street,<br> 
+                Kaatunaicken nagar<br>
+                Konimedu, Pammadukulam<br> 
+                Chennai 600052.
+                </td>
+            </tr>
+         </table>
+       </div>
+    </div>
+
+</body>
+</html>
